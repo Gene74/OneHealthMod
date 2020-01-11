@@ -1,0 +1,11 @@
+{
+  "Id": "OneHealthMod",
+  "DisplayName": "One Health Mod",
+  "Author": "Gene74",
+  "Version": "1.0.1",
+  "Requires": ["SMLHelper"],
+  "Enable": true,
+  "AssemblyName": "OneHealthMod.dll",
+  "EntryMethod": "OneHealthMod.MainPatcher.Patch",
+  "Config": {}
+}
