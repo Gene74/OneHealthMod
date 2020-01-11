@@ -5,10 +5,10 @@ using UnityEngine;
 namespace OneHealthMod
 {
     [HarmonyPatch(typeof(Player))]  // We're patching the Player class.
-    [HarmonyPatch("Start")]         // The Player class's Start method specifically.
-    internal class Player_Start_Patch
+    [HarmonyPatch("Update")]         // The Player class's Update method specifically.
+    internal class Player_Update_Patch
     {
-        [HarmonyPostfix]            // Run this after the default game's Player Start method runs.
+        [HarmonyPostfix]            // Run this after the default game's Player Update method runs.
         public static void Postfix(Player __instance)
         {
             // flag if the mod should be applied
@@ -27,11 +27,6 @@ namespace OneHealthMod
             {
                 // then reduce the health to 1
                 __instance.liveMixin.health = 1f;
-                Debug.Log("[OneHealthMod] liveMixin.health set to 1f");
-            }
-            else
-            {
-                Debug.Log("[OneHealthMod] liveMixin does not exist");
             }
         }
     }

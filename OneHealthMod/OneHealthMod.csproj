@@ -68,5 +68,10 @@
   <ItemGroup>
     <None Include="mod.json" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="ChangeLog.txt" />
+    <Content Include="Installation Note.txt" />
+    <Content Include="Read Me.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

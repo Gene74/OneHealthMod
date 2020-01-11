@@ -1,0 +1,23 @@
+Installation Instructions for OneHealthMod Version 1.0.2
+=========================================================
+
+1) Install the "QModManager" (Tested with Version 3.0 on Jan11 2020)
+	-> follow the instructions/dialogs
+	-> you should now see the section "Mods" in Game->Options
+
+2) Install the Mod "SMLHelper" (Tested with Version 2.5 on Jan11 2020)
+	-> Extract the Mod and move only the folder "ModdingHelper" into the Mod-Folder "QMods"
+	-> its a subfolder of your Game folder created at the installation of the QModManager
+	-> for example if installed with Steam: ...\steamapps\common\Subnautica\QMods
+	-> you should now see a new Option in Game->Options->Mods:
+		o New Section: SMLHelper
+		o New Option:  Enable debug logs
+
+3) Install the OneHealthMod:
+	-> Extract the Mod and move the folder "OneHealthMod" into the Mod-Folder "QMods"
+	-> you should now see a new Option in Game->Options->Mods:
+		o New Section: One Health Mod
+		o New Option:  Keep HP at Minimum
+
+
+> Tested with Subnautica Build Jan9 2020

@@ -1,0 +1,19 @@
+Version 1.0.2
+==============
+- Now if activated -> the health will stay at the minimum at all time and not regenerate.
+
+
+Version 1.0.1
+==============
+- Can now be activated in Game->Options->Mods
+
+- At the start of a new game health is being reduced to 1, 
+  but right when you check you will see it goes up to 2 again and stays there.
+
+- It could also be that a health amount of 3 is shown right after applied 
+  but it will go down to 2 after a short time (few seconds in my tests).
+
+
+Version 1.0.0
+==============
+- When pressing F9 health gets reduced to the minimum (2) without gettig killed.

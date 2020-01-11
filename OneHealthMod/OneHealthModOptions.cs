@@ -18,7 +18,7 @@ namespace OneHealthMod
 
         public override void BuildModOptions()
         {
-            base.AddToggleOption("ActivateOneHealthMod", "Set HP to Minimum at Start", isActive);
+            base.AddToggleOption("ActivateOneHealthMod", "Keep HP at Minimum", isActive);
         }
 
         // Event that gets triggered if the optin is changed

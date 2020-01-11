@@ -2,7 +2,7 @@
   "Id": "OneHealthMod",
   "DisplayName": "One Health Mod",
   "Author": "Gene74",
-  "Version": "1.0.1",
+  "Version": "1.0.2",
   "Requires": ["SMLHelper"],
   "Enable": true,
   "AssemblyName": "OneHealthMod.dll",
